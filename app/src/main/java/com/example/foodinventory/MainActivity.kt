@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val ss = SpannableString("Reset Your Password ")
+        val ss = SpannableString("Reset Your Password")
         val clickableSpan: ClickableSpan = object : ClickableSpan() {
             override fun onClick(p0: View) {
                 val intent = Intent(this@MainActivity,ResetPasswordActivity::class.java)
